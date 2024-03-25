@@ -47,11 +47,11 @@ form.onsubmit = (event) => {
         return
     }
 
-    let inp = 1
+    let inp = 2
 
     inp_span.forEach((e) => {
         if (inputs.length === inp) {
-            e.innerHTML = 'minimum 2'
+            e.innerHTML = 'minimum 3'
         }
     })
 
