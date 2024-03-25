@@ -47,7 +47,7 @@ form.onsubmit = (event) => {
         return
     }
 
-    let inp = 2
+    let inp = 3
 
     inp_span.forEach((e) => {
         if (inputs.length === inp) {
